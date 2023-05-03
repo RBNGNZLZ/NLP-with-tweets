@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\textwidth=6.0in
+\textheight=8.25in
+\leftmargin=-0.30in
+\topmargin=-0.20in
+\input econfmacros.tex
+
+\def\Title#1{\begin{center} {\Large {\bf #1} } \end{center}}
+
+\begin{document}
+
+\Title{NLP With Tweets}
+
+\bigskip\bigskip
+
+\begin{raggedright}
+
+{\it
+Ruben Gonzalez\\
+Mason Speck\\
+CS 4347 Section 252 - Intro to Machine Learning\\
+Dr. Vangelis Metsis\\
+2023-05-02
+}
+\bigskip\bigskip
+\end{raggedright}
+
+
+\section{Abstract}
+
+% Abstract: within 150 words. What is the problem? How did you solve it? What are the final results?
+
+This research aims to utilize natural language processing to produce a machine learning model capable of classifying posts from users of the social media website Twitter as pertaining, or not pertaining, to occurrences of natural disasters. Using a corpus of training and testing data provided by the company Figure Eight, four machine learning models were trained and optimized against already-classified posts from Twitter. After training the models, predictions were ran against a corpus of new, unclassified, and unseen Twitter posts and the accuracy of each of the models evaluated. The four models utilized were multinomial naive Bayes, random forest, logisitic regression, and a multi-layer perceptron convolutional neural network (MLP). Of these models, the multinomial naive bayes model performed the best, accurately classifying 80.21\% of previously unseen and unclassified Twitter posts.
+
+\section{Introduction}
+
+% Introduction: describe the problem in detail. You may look up more literature and describe the problem in a broader way. Not necessarily be constrained by the description given on the Kaggle site.
+
+\section{Methodology}
+
+% Methodology: describe your solutions in detail. For example, the machine learning methods you used to solve the problem. The data pre-processing steps, etc.
+
+\section{Results}
+
+% Results: use plots and tables to format your results. And also, add necessary description words to explain the results.
+
+\section{Conclusion}
+
+% Conclusion: conclude the work.
+
+\end{document}
